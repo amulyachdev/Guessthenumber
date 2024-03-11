@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2e2d2d;
+    color: #edebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+margin: 10px 0;
+}
+#number-range {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#random-number {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+button {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+
